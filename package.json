@@ -1,0 +1,13 @@
+{
+  "name": "practicatailwind",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch"
+  },
+  "author": "Kelvin Padilla",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
